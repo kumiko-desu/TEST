@@ -1,5 +1,4 @@
-var sn = [ 42, 41 ], dz = 43, fx = 1, n, ct;
-x = document.getElementById("can").getContext("2d");  
+var sn = [ 42, 41 ], dz = 43, fx = 1, n, ctx = document.getElementById("can").getContext("2d");  
 function draw(t, c) {  
         ctx.fillStyle = c;  
         ctx.fillRect(t % 20 * 20 + 1, ~~(t / 20) * 20 + 1, 18, 18);  
